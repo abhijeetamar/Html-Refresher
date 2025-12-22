@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Examination Registration Form</h2>
+
+<form>
+
+    <label>Student Name:</label><br>
+    <input type="text" name="student_name" placeholder="Enter Student Name"><br><br>
+
+    <label>Roll Number:</label><br>
+    <input type="text" name="roll_number" placeholder="Enter Roll Number"><br><br>
+
+    <label>Class:</label><br>
+    <input type="text" name="class" placeholder="Enter Class"><br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob"><br><br>
+
+    <label><b>Select Gender:</b></label><br>
+    <input type="radio" name="gender" value="Male"> Male<br>
+    <input type="radio" name="gender" value="Female"> Female<br>
+    <input type="radio" name="gender" value="Others"> Other<br><br>
+
+    <label><b>Subjects:</b></label><br>
+    <input type="checkbox" name="subject[]" value="Math"> Math<br>
+    <input type="checkbox" name="subject[]" value="Science"> Science<br>
+    <input type="checkbox" name="subject[]" value="SST"> SST<br>
+    <input type="checkbox" name="subject[]" value="EVS"> EVS<br><br>
+
+    <label>Exam Center:</label><br>
+    <select name="exam_center">
+        <option>Select Center</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Hyderabad</option>
+        <option>Kolkata</option>
+    </select><br><br>
+
+    <label>Address:</label><br>
+    <textarea rows="4" cols="30" placeholder="Enter Address"></textarea><br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset Form">
+
+</form>
+
+</body>
+</html>

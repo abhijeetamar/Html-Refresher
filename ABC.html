@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Examination Portal</title>
+</head>
+<body>
+
+<h1>ABC Public School</h1>
+<h2>Online Examination Center</h2>
+
+<img src="school_logo.png" alt="School Logo" width="120">
+
+<p>
+  Welcome to the <b>Examination Registration Portal</b>.
+  Please read the instructions carefully before filling the form.
+</p>
+
+<p>
+  <b>Note:</b> <i>All fields are mandatory.</i>
+  <u>Incorrect information</u> may lead to rejection.
+</p>
+
+<hr>
+
+<h3>Exam Rules</h3>
+<ul>
+  <li>Carry your admit card</li>
+  <li>Reach your exam center 30 minutes early</li>
+  <li>Electronic devices are not allowed</li>
+</ul>
+
+<h3>Available Subjects</h3>
+<ol>
+  <li>Mathematics</li>
+  <li>Science</li>
+  <li>Computer</li>
+  <li>English</li>
+</ol>
+
+<p>
+  For syllabus details
+  <a href="https://www.cbse.gov.in" target="_blank">Click here</a>
+</p>
+
+<hr>
+
+<h3>Examination Schedule</h3>
+<table border="1" cellpadding="10">
+  <tr>
+    <th>Subject</th>
+    <th>Date</th>
+    <th>Time</th>
+  </tr>
+  <tr>
+    <td>Math</td>
+    <td>10 March</td>
+    <td>10 AM</td>
+  </tr>
+  <tr>
+    <td>Science</td>
+    <td>12 March</td>
+    <td>12 PM</td>
+  </tr>
+  <tr>
+    <td>Political Science</td>
+    <td>14 March</td>
+    <td>2 PM</td>
+  </tr>
+  <tr>
+    <td>History</td>
+    <td>16 March</td>
+    <td>4 PM</td>
+  </tr>
+</table>
+
+<hr>
+
+<h2>Student Registration Form</h2>
+
+<form>
+
+  <label>Student Name:</label><br>
+  <input type="text" name="student_name" placeholder="Enter your name"><br><br>
+
+  <label>Roll Number:</label><br>
+  <input type="text" name="roll_number" placeholder="Enter roll number"><br><br>
+
+  <label>Date of Birth:</label><br>
+  <input type="date" name="dob"><br><br>
+
+  <label><b>Gender:</b></label><br>
+  <input type="radio" name="gender" value="Male"> Male<br>
+  <input type="radio" name="gender" value="Female"> Female<br>
+  <input type="radio" name="gender" value="Other"> Other<br><br>
+
+  <label><b>Select Subjects:</b></label><br>
+  <input type="checkbox" name="subject[]" value="Math"> Math<br>
+  <input type="checkbox" name="subject[]" value="Science"> Science<br>
+  <input type="checkbox" name="subject[]" value="Computer"> Computer<br><br>
+
+  <label>Exam Center:</label><br>
+  <select name="exam_center">
+    <option>Select Center</option>
+    <option>Delhi</option>
+    <option>Mumbai</option>
+    <option>Hyderabad</option>
+  </select><br><br>
+
+  <label>Address:</label><br>
+  <textarea rows="4" cols="30"></textarea><br><br>
+
+  <button type="submit">Submit Form</button>
+  <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
