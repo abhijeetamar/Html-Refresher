@@ -1,0 +1,27 @@
+body {
+    background-color:red;
+}
+
+/* CARD */
+.card {
+    width: 300px;
+
+    /* 🔹 padding = andar ka space */
+    padding: 20px;
+
+    /* 🔹 border = boundary */
+    border: 3px solid black;
+
+    /* 🔹 margin = bahar ka space */
+    margin: 100px auto;
+
+    background-color: rgb(227, 13, 13);
+    text-align: center;
+}
+
+/* Button thoda acha dikhe */
+button {
+    padding: 10px 20px;
+    border: 2px solid blue;
+    background-color: white;
+}

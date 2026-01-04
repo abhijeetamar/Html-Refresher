@@ -1,0 +1,68 @@
+/* RESET + BOX MODEL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE */
+body {
+  background: #f4f4f4;
+  padding: 40px;
+  font-family: Arial;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* FLEX CONTAINER */
+.container {
+  display: flex;
+  gap: 20px;          /* margin ka replacement */
+  flex-wrap: wrap;   /* responsive */
+  justify-content: center;
+}
+
+/* CARD (BOX MODEL USE) */
+.card {
+  width: 300px;
+  background: white;
+  display: flex;
+  flex-direction: column; /* upar se neeche */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.content {
+  padding: 16px;     /* padding example */
+  flex-grow: 1;      /* ⭐ equal height magic */
+}
+
+.content h3 {
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.card button {
+  margin: 16px;      /* margin example */
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.card button:hover {
+  background: #0056b3;
+}

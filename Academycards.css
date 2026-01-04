@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    font-family: arial;
+    text-align: center;
+}
+.heading{
+    margin-top: 40px;
+}
+
+.card{
+    width: 280px;
+    min-height: 320px;
+
+    padding:20px ;
+    margin: 30px;
+    border: 2px solid black;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+/* FrontEnd card */
+.card-frontend {
+    border-color: #2196f3;
+}
+.card-frontend button {
+    background-color: #2196f3;
+    color: white;
+}
+
+/* Backend card */
+
+
+.card-backend {
+    border-color: #4caf50;
+}
+
+.card-backend button {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Ui designer */
+.card-designer {
+    border-color: #ff9800;
+}
+.card-designer button {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Button */
+Button{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
